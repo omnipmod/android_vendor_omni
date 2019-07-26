@@ -115,3 +115,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Add our overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/omni/overlay/common
+
+#Gapps
+include vendor/gapps/config.mk
+
+#PixelStyle
+include vendor/pixelstyle/config.mk
